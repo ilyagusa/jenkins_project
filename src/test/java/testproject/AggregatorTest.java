@@ -31,9 +31,9 @@ public class AggregatorTest {
 
     @Test
     public void testReset(){
-        double value = 20
+        double value = 20;
         agr.addValue(value);
-        agr.reset()
+        agr.reset();
         Aggregator agr = new Aggregator();
         assertThat(agr.getSum()).isEqualTo(0);
     }

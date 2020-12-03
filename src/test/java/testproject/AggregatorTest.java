@@ -32,6 +32,6 @@ public class AggregatorTest {
     @Test
     public void testReset(){
         Aggregator agr = new Aggregator();
-        assertThat(agr.reset()).isEqualTo(0));
+        assertThat(agr.reset()).isEqualTo(0);
     }
 }

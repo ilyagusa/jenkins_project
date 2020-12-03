@@ -31,10 +31,10 @@ public class AggregatorTest {
 
     @Test
     public void testReset(){
+        Aggregator agr = new Aggregator();
         double value = 20;
         agr.addValue(value);
         agr.reset();
-        Aggregator agr = new Aggregator();
         assertThat(agr.getSum()).isEqualTo(0);
     }
 }
